@@ -11,37 +11,38 @@
 						<li>
 							<router-link
 								to="/en-uz"
-								class="flex items-center gap-1 text-white p-4">
+								class="flex items-center gap-1 text-white p-4 py-2">
 								ENG <img src="/img/arrows-exchange.png" alt="" /> UZB
 							</router-link>
 						</li>
 						<li>
 							<router-link
 								to="/ru-uz"
-								class="flex items-center gap-1 text-white p-4">
+								class="flex items-center gap-1 text-white p-4 py-2">
 								RUS <img src="/img/arrows-exchange.png" alt="" /> UZB
 							</router-link>
 						</li>
 						<li>
 							<router-link
 								to="/articles"
-								class="flex items-center gap-1 text-white p-4">
+								class="flex items-center gap-1 text-white p-4 py-2">
 								Articles
 							</router-link>
 						</li>
 						<li>
 							<router-link
 								to="/grammar"
-								class="flex items-center gap-1 text-white p-4">
+								class="fromLeft flex items-center gap-1 text-white p-4 py-2">
 								Grammar
 							</router-link>
 						</li>
 						<li>
 							<router-link
 								to="/about"
-								class="flex items-center gap-1 text-white p-4">
+								class="flex items-center gap-1 text-white p-4 py-2">
 								About us
 							</router-link>
+							<div class=""></div>
 						</li>
 					</ul>
 				</div>
@@ -58,9 +59,11 @@
 <style scoped>
 .router-link-exact-active {
 	font-weight: 800;
-	text-decoration: underline;
+	outline: 3px solid #000;
 }
+
 .logo {
 	text-decoration: none;
+	border: none;
 }
 </style>
