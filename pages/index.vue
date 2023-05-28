@@ -13,6 +13,7 @@ const searchWord = async () => {
 		result.value = data.value;
 	}
 };
+
 const play = () => {
 	var audio = document.getElementById("audio");
 	audio.play();

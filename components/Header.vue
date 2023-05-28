@@ -59,7 +59,7 @@
 <style scoped>
 .router-link-exact-active {
 	font-weight: 800;
-	outline: 3px solid #000;
+	border-bottom: 3px solid green;
 }
 
 .logo {
